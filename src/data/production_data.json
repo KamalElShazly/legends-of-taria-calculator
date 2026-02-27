@@ -1,0 +1,345 @@
+{
+  "Smelting": {
+    "Bronze Bar": {
+      "level": "1",
+      "xp": "10",
+      "submaterials": {
+        "Copper Ore": "1",
+        "Tin Ore": "1"
+      },
+      "image": "smelting/bronze-bar.png"
+    },
+    "Iron Bar": {
+      "level": "15",
+      "xp": "25",
+      "submaterials": {
+        "Iron Ore": "2"
+      },
+      "image": "smelting/iron-bar.png"
+    },
+    "Mithril Bar": {
+      "level": "30",
+      "xp": "50",
+      "submaterials": {
+        "Mithril Ore": "3"
+      },
+      "image": "smelting/mithril-bar.png"
+    },
+    "Adamant Bar": {
+      "level": "45",
+      "xp": "80",
+      "submaterials": {
+        "Adamant Ore": "4"
+      },
+      "image": "smelting/adamant-bar.png"
+    }
+  },
+  "Smithing": {
+    "Bronze": {
+      "Bronze Sword": {
+        "level": "2",
+        "xp": "7",
+        "submaterials": {
+          "Bronze Bar": "1"
+        },
+        "image": "smithing/bronze-sword.png"
+      },
+      "Bronze Pickaxe": {
+        "level": "3",
+        "xp": "14",
+        "submaterials": {
+          "Bronze Bar": "2"
+        },
+        "image": "smithing/bronze-pickaxe.png"
+      },
+      "Bronze Axe": {
+        "level": "3",
+        "xp": "14",
+        "submaterials": {
+          "Bronze Bar": "2"
+        },
+        "image": "smithing/bronze-axe.png"
+      },
+      "Bronze Helm": {
+        "level": "4",
+        "xp": "21",
+        "submaterials": {
+          "Bronze Bar": "3"
+        },
+        "image": "smithing/bronze-helm.png"
+      },
+      "Bronze Legs": {
+        "level": "5",
+        "xp": "28",
+        "submaterials": {
+          "Bronze Bar": "4"
+        },
+        "image": "smithing/bronze-legs.png"
+      },
+      "Bronze Body": {
+        "level": "7",
+        "xp": "35",
+        "submaterials": {
+          "Bronze Bar": "5"
+        },
+        "image": "smithing/bronze-body.png"
+      }
+    },
+    "Iron": {
+      "Iron Sword": {
+        "level": "11",
+        "xp": "14",
+        "submaterials": {
+          "Iron Bar": "1"
+        },
+        "image": "smithing/iron-sword.png"
+      },
+      "Iron Pickaxe": {
+        "level": "12",
+        "xp": "28",
+        "submaterials": {
+          "Iron Bar": "2"
+        },
+        "image": "smithing/iron-pickaxe.png"
+      },
+      "Iron Axe": {
+        "level": "12",
+        "xp": "28",
+        "submaterials": {
+          "Iron Bar": "2"
+        },
+        "image": "smithing/iron-axe.png"
+      },
+      "Iron Helm": {
+        "level": "13",
+        "xp": "42",
+        "submaterials": {
+          "Iron Bar": "3"
+        },
+        "image": "smithing/iron-helm.png"
+      },
+      "Iron Legs": {
+        "level": "15",
+        "xp": "56",
+        "submaterials": {
+          "Iron Bar": "4"
+        },
+        "image": "smithing/iron-legs.png"
+      },
+      "Iron Body": {
+        "level": "17",
+        "xp": "70",
+        "submaterials": {
+          "Iron Bar": "5"
+        },
+        "image": "smithing/iron-body.png"
+      }
+    },
+    "Mithril": {
+      "Mithril Sword": {
+        "level": "21",
+        "xp": "28",
+        "submaterials": {
+          "Mithril Bar": "1"
+        },
+        "image": "smithing/mithril-sword.png"
+      },
+      "Mithril Pickaxe": {
+        "level": "22",
+        "xp": "56",
+        "submaterials": {
+          "Mithril Bar": "2"
+        },
+        "image": "smithing/mithril-pickaxe.png"
+      },
+      "Mithril Axe": {
+        "level": "22",
+        "xp": "56",
+        "submaterials": {
+          "Mithril Bar": "2"
+        },
+        "image": "smithing/mithril-axe.png"
+      },
+      "Mithril Helm": {
+        "level": "23",
+        "xp": "84",
+        "submaterials": {
+          "Mithril Bar": "3"
+        },
+        "image": "smithing/mithril-helm.png"
+      },
+      "Mithril Legs": {
+        "level": "25",
+        "xp": "112",
+        "submaterials": {
+          "Mithril Bar": "4"
+        },
+        "image": "smithing/mithril-legs.png"
+      },
+      "Mithril Body": {
+        "level": "27",
+        "xp": "140",
+        "submaterials": {
+          "Mithril Bar": "5"
+        },
+        "image": "smithing/mithril-body.png"
+      }
+    },
+    "Adamant": {
+      "Adamant Sword": {
+        "level": "31",
+        "xp": "56",
+        "submaterials": {
+          "Adamant Bar": "1"
+        },
+        "image": "smithing/adamant-sword.png"
+      },
+      "Adamant Pickaxe": {
+        "level": "32",
+        "xp": "168",
+        "submaterials": {
+          "Adamant Bar": "2"
+        },
+        "image": "smithing/adamant-pickaxe.png"
+      },
+      "Adamant Axe": {
+        "level": "32",
+        "xp": "168",
+        "submaterials": {
+          "Adamant Bar": "2"
+        },
+        "image": "smithing/adamant-axe.png"
+      },
+      "Adamant Helm": {
+        "level": "33",
+        "xp": "168",
+        "submaterials": {
+          "Adamant Bar": "3"
+        },
+        "image": "smithing/adamant-helm.png"
+      },
+      "Adamant Legs": {
+        "level": "35",
+        "xp": "224",
+        "submaterials": {
+          "Adamant Bar": "4"
+        },
+        "image": "smithing/adamant-legs.png"
+      },
+      "Adamant Body": {
+        "level": "37",
+        "xp": "280",
+        "submaterials": {
+          "Adamant Bar": "5"
+        },
+        "image": "smithing/adamant-body.png"
+      }
+    }
+  },
+  "Cooking": {
+    "Shrimp": {
+      "level": "1",
+      "xp": "10",
+      "submaterials": {
+        "Raw Shrimp": "1"
+      },
+      "image": "cooking/shrimp.png"
+    },
+    "Anchovies": {
+      "level": "5",
+      "xp": "20",
+      "submaterials": {
+        "Raw Anchovies": "1"
+      },
+      "image": "cooking/anchovies.png"
+    },
+    "Sardine": {
+      "level": "10",
+      "xp": "30",
+      "submaterials": {
+        "Raw Sardine": "1"
+      },
+      "image": "cooking/sardine.png"
+    },
+    "Trout": {
+      "level": "15",
+      "xp": "40",
+      "submaterials": {
+        "Raw Trout": "1"
+      },
+      "image": "cooking/trout.png"
+    },
+    "Bass": {
+      "level": "20",
+      "xp": "50",
+      "submaterials": {
+        "Raw Bass": "1"
+      },
+      "image": "cooking/bass.png"
+    },
+    "Salmon": {
+      "level": "25",
+      "xp": "60",
+      "submaterials": {
+        "Raw Salmon": "1"
+      },
+      "image": "cooking/salmon.png"
+    },
+    "Crab": {
+      "level": "30",
+      "xp": "70",
+      "submaterials": {
+        "Raw Crab": "1"
+      },
+      "image": "cooking/crab.png"
+    },
+    "Lobster": {
+      "level": "35",
+      "xp": "80",
+      "submaterials": {
+        "Raw Lobster": "1"
+      },
+      "image": "cooking/lobster.png"
+    },
+    "Octopus": {
+      "level": "40",
+      "xp": "90",
+      "submaterials": {
+        "Raw Octopus": "1"
+      },
+      "image": "cooking/octopus.png"
+    },
+    "Swordfish": {
+      "level": "45",
+      "xp": "100",
+      "submaterials": {
+        "Raw Swordfish": "1"
+      },
+      "image": "cooking/swordfish.png"
+    },
+    "Shark": {
+      "level": "50",
+      "xp": "110",
+      "submaterials": {
+        "Raw Shark": "1"
+      },
+      "image": "cooking/shark.png"
+    },
+    "Manta Ray": {
+      "level": "55",
+      "xp": "120",
+      "submaterials": {
+        "Raw Manta Ray": "1"
+      },
+      "image": "cooking/manta-ray.png"
+    },
+    "Tuna": {
+      "level": "60",
+      "xp": "130",
+      "submaterials": {
+        "Raw Tuna": "1"
+      },
+      "image": "cooking/tuna.png"
+    }
+  }
+}
