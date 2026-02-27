@@ -16,7 +16,8 @@ jobs:
         run: npm install
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+        run: |
+          git config --global user.name 'Kamal El-Shazly'
+          git config --global user.email 'kamalelshazly92@gmail.com'
+          git remote set-url origin https://git:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git
+          npm run deploy
