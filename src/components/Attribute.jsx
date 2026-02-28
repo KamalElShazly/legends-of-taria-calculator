@@ -1,7 +1,6 @@
 import React from "react";
 import TextField from "@mui/material/TextField";
 import Box from "@mui/material/Box";
-import InputAdornment from "@mui/material/InputAdornment";
 
 import expData from "../data/exp_data.json";
 
