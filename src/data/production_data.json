@@ -2,7 +2,7 @@
   "Smelting": {
     "Bronze Bar": {
       "level": "1",
-      "xp": "10",
+      "xp": "2",
       "submaterials": {
         "Copper Ore": "1",
         "Tin Ore": "1"
@@ -10,24 +10,24 @@
       "image": "smelting/bronze-bar.png"
     },
     "Iron Bar": {
-      "level": "15",
-      "xp": "25",
+      "level": "10",
+      "xp": "4",
       "submaterials": {
         "Iron Ore": "2"
       },
       "image": "smelting/iron-bar.png"
     },
     "Mithril Bar": {
-      "level": "30",
-      "xp": "50",
+      "level": "20",
+      "xp": "8",
       "submaterials": {
         "Mithril Ore": "3"
       },
       "image": "smelting/mithril-bar.png"
     },
     "Adamant Bar": {
-      "level": "45",
-      "xp": "80",
+      "level": "30",
+      "xp": "16",
       "submaterials": {
         "Adamant Ore": "4"
       },
