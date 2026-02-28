@@ -21,7 +21,7 @@
       "level": "20",
       "xp": "8",
       "submaterials": {
-        "Mithril Ore": "3"
+        "Mithril Ore": "1"
       },
       "image": "smelting/mithril-bar.png"
     },
@@ -29,7 +29,7 @@
       "level": "30",
       "xp": "16",
       "submaterials": {
-        "Adamant Ore": "4"
+        "Adamant Ore": "1"
       },
       "image": "smelting/adamant-bar.png"
     }
