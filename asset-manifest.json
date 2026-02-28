@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/legends-of-taria-calculator/static/css/main.f6d2535a.css",
-    "main.js": "/legends-of-taria-calculator/static/js/main.d6216a17.js",
+    "main.js": "/legends-of-taria-calculator/static/js/main.1b737cc6.js",
     "index.html": "/legends-of-taria-calculator/index.html",
     "main.f6d2535a.css.map": "/legends-of-taria-calculator/static/css/main.f6d2535a.css.map",
-    "main.d6216a17.js.map": "/legends-of-taria-calculator/static/js/main.d6216a17.js.map"
+    "main.1b737cc6.js.map": "/legends-of-taria-calculator/static/js/main.1b737cc6.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d2535a.css",
-    "static/js/main.d6216a17.js"
+    "static/js/main.1b737cc6.js"
   ]
 }
