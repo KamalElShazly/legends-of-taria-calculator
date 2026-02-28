@@ -341,5 +341,31 @@
       },
       "image": "cooking/tuna.png"
     }
+  },
+  "Firemaking": {
+    "Birch": {
+      "level": "1",
+      "xp": "2",
+      "submaterials": {},
+      "image": "woodcutting/birch-logs.png"
+    },
+    "Oak": {
+      "level": "10",
+      "xp": "4",
+      "submaterials": {},
+      "image": "woodcutting/oak-logs.png"
+    },
+    "Pine": {
+      "level": "20",
+      "xp": "8",
+      "submaterials": {},
+      "image": "woodcutting/pine-logs.png"
+    },
+    "Cedar": {
+      "level": "30",
+      "xp": "16",
+      "submaterials": {},
+      "image": "woodcutting/cedar-logs.png"
+    }
   }
 }
