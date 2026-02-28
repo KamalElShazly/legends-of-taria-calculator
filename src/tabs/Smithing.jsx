@@ -5,6 +5,9 @@ import Attribute from "../components/Attribute";
 import Display from "../components/Display";
 import Group from "../components/Group";
 import ToggleButtons from "../components/ToggleButtons";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Checkbox from "@mui/material/Checkbox";
+import Box from "@mui/material/Box";
 
 import productionData from "../data/production_data.json";
 
@@ -30,6 +33,8 @@ const Smithing = () => {
   const updateElement = (element) => {
     setElement(element);
   };
+  // If true, needed items are calculated using item XP + smelting bars XP
+  const [smeltUsedBars, setSmeltUsedBars] = useState(false);
 
   const data = productionData["Smithing"];
 
@@ -51,6 +56,18 @@ const Smithing = () => {
           alignItems: "center",
         }}
       />
+
+      <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={smeltUsedBars}
+              onChange={(e) => setSmeltUsedBars(e.target.checked)}
+            />
+          }
+          label="Smelt used bars (include smelting XP in calculation)"
+        />
+      </Box>
 
       <Group title="Bronze">
         <ToggleButtons data={data.Bronze} currentLevel={currentLevel} updateElement={updateElement} />
@@ -75,6 +92,8 @@ const Smithing = () => {
         element={element}
         keywords={[""]}
         skill="Smithing"
+        smeltBars={smeltUsedBars}
+        smeltingData={productionData["Smelting"]}
       />
     </>
   );

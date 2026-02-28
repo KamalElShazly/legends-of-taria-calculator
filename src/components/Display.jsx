@@ -7,11 +7,26 @@ import ListItemText from "@mui/material/ListItemText";
 
 import expData from "../data/exp_data.json";
 
-const Display = ({ level, levelPercentage, targetLevel, element, keywords, skill, switchValue }) => {
+const Display = ({ level, levelPercentage, targetLevel, element, keywords, skill, switchValue, smeltBars, smeltingData }) => {
   const [expGap, setExpGap] = React.useState(0);
 
   const addCommas = (num) => {
     return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  };
+
+  const getEffectiveXpPerItem = () => {
+    if (!element[1] || element[0] === "loading") return 0;
+    const itemXp = parseInt(element[1]["xp"], 10);
+    if (smeltBars && smeltingData && element[1]["submaterials"]) {
+      let smeltingXp = 0;
+      for (const [barName, count] of Object.entries(element[1]["submaterials"])) {
+        if (smeltingData[barName] && smeltingData[barName].xp) {
+          smeltingXp += parseInt(count, 10) * parseInt(smeltingData[barName].xp, 10);
+        }
+      }
+      return itemXp + smeltingXp;
+    }
+    return itemXp;
   };
 
   React.useEffect(() => {
@@ -44,7 +59,7 @@ const Display = ({ level, levelPercentage, targetLevel, element, keywords, skill
                 <></>
               ) : (
                 <ListItemText
-                  primary={"Total " + keywords[0] + " " + element[0] + ": " + addCommas(Math.ceil(expGap / parseInt(element[1]["xp"])))}
+                  primary={"Total " + keywords[0] + " " + element[0] + ": " + addCommas(Math.ceil(expGap / getEffectiveXpPerItem()))}
                 />
               )}
             </ListItem>
@@ -60,7 +75,7 @@ const Display = ({ level, levelPercentage, targetLevel, element, keywords, skill
                       "Total " +
                       subelement +
                       ": " +
-                      addCommas(Math.ceil(expGap / parseInt(element[1]["xp"])) * element[1]["submaterials"][subelement])
+                      addCommas(Math.ceil(expGap / getEffectiveXpPerItem()) * element[1]["submaterials"][subelement])
                     }
                   />
                 </ListItem>
