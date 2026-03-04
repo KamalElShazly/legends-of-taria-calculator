@@ -14,19 +14,19 @@
     },
     "Iron Ore": {
       "level": "10",
-      "xp": "20",
+      "xp": "21",
       "submaterials": {},
       "image": "mining/iron-ore.png"
     },
     "Mithril Ore": {
       "level": "20",
-      "xp": "40",
+      "xp": "32",
       "submaterials": {},
       "image": "mining/mithril-ore.png"
     },
     "Adamant Ore": {
       "level": "30",
-      "xp": "80",
+      "xp": "45",
       "submaterials": {},
       "image": "mining/adamant-ore.png"
     }
@@ -40,19 +40,19 @@
     },
     "Oak": {
       "level": "10",
-      "xp": "20",
+      "xp": "21",
       "submaterials": {},
       "image": "woodcutting/oak-logs.png"
     },
     "Pine": {
       "level": "20",
-      "xp": "40",
+      "xp": "32",
       "submaterials": {},
       "image": "woodcutting/pine-logs.png"
     },
     "Cedar": {
       "level": "30",
-      "xp": "80",
+      "xp": "44",
       "submaterials": {},
       "image": "woodcutting/cedar-logs.png"
     }
@@ -61,85 +61,85 @@
     "Net": {
       "Shrimp": {
         "level": "1",
-        "xp": "10",
+        "xp": "14",
         "submaterials": {},
         "image": "fishing/raw-shrimp.png"
       },
       "Anchovies": {
-        "level": "5",
-        "xp": "20",
+        "level": "8",
+        "xp": "28",
         "submaterials": {},
         "image": "fishing/raw-anchovies.png"
       },
       "Sardine": {
-        "level": "10",
-        "xp": "30",
+        "level": "15",
+        "xp": "42",
         "submaterials": {},
         "image": "fishing/raw-sardine.png"
       }
     },
     "Rod": {
       "Trout": {
-        "level": "15",
-        "xp": "40",
+        "level": "22",
+        "xp": "56",
         "submaterials": {},
         "image": "fishing/raw-trout.png"
       },
       "Bass": {
-        "level": "20",
-        "xp": "50",
+        "level": "30",
+        "xp": "70",
         "submaterials": {},
         "image": "fishing/raw-bass.png"
       },
       "Salmon": {
-        "level": "25",
-        "xp": "60",
+        "level": "37",
+        "xp": "84",
         "submaterials": {},
         "image": "fishing/raw-salmon.png"
       }
     },
     "Cage": {
       "Crab": {
-        "level": "30",
-        "xp": "70",
+        "level": "45",
+        "xp": "98",
         "submaterials": {},
         "image": "fishing/raw-crab.png"
       },
       "Lobster": {
-        "level": "35",
-        "xp": "80",
+        "level": "52",
+        "xp": "112",
         "submaterials": {},
         "image": "fishing/raw-lobster.png"
       },
       "Octopus": {
-        "level": "40",
-        "xp": "90",
+        "level": "60",
+        "xp": "126",
         "submaterials": {},
         "image": "fishing/raw-octopus.png"
       }
     },
     "Harpoon": {
       "Swordfish": {
-        "level": "45",
-        "xp": "100",
+        "level": "67",
+        "xp": "140",
         "submaterials": {},
         "image": "fishing/raw-swordfish.png"
       },
       "Shark": {
-        "level": "50",
-        "xp": "110",
+        "level": "75",
+        "xp": "154",
         "submaterials": {},
         "image": "fishing/raw-shark.png"
       },
       "Manta Ray": {
-        "level": "55",
-        "xp": "120",
+        "level": "82",
+        "xp": "168",
         "submaterials": {},
         "image": "fishing/raw-manta-ray.png"
       },
       "Tuna": {
-        "level": "60",
-        "xp": "130",
+        "level": "90",
+        "xp": "182",
         "submaterials": {},
         "image": "fishing/raw-tuna.png"
       }
