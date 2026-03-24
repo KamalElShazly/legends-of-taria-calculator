@@ -20,16 +20,6 @@ const Attribute = ({ maxValue, attributeName, updateAttribute, updateAttribute2,
     return 1;
   };
 
-  const getProgressFromTotalXp = (totalXp, level) => {
-    if (level >= maxValue) return 1;
-    const levelStart = parseInt(expData[level], 10);
-    const levelEnd = parseInt(expData[level + 1], 10);
-    const xpInLevel = Math.floor(totalXp) - levelStart;
-    const range = levelEnd - levelStart;
-    if (range <= 0) return 1;
-    return Math.min(1, Math.max(0, xpInLevel / range));
-  };
-
   const checkAndUpdateValue = (currentValue, newValue) => {
     let finalValue;
     newValue = Math.floor(newValue);
@@ -51,8 +41,7 @@ const Attribute = ({ maxValue, attributeName, updateAttribute, updateAttribute2,
     if (isCurrentLevel) {
       const totalXpAtLevel = parseInt(expData[finalValue], 10);
       setAttribute2(totalXpAtLevel);
-      const progress = getProgressFromTotalXp(totalXpAtLevel, finalValue);
-      updateAttribute2(progress);
+      updateAttribute2(totalXpAtLevel);
     }
     updateAttribute(finalValue);
   };
@@ -68,14 +57,13 @@ const Attribute = ({ maxValue, attributeName, updateAttribute, updateAttribute2,
     const maxXp = getMaxTotalXp();
     if (totalXp < 0) totalXp = 0;
     if (totalXp > maxXp) totalXp = maxXp;
-    setAttribute2(totalXp);
 
     const level = getLevelFromTotalXp(totalXp);
     setAttribute(level);
     updateAttribute(level);
 
-    const progress = getProgressFromTotalXp(totalXp, level);
-    updateAttribute2(progress);
+    setAttribute2(totalXp);
+    updateAttribute2(totalXp);
   };
 
   const checkIfNaN = (value) => {
@@ -135,8 +123,8 @@ const Attribute = ({ maxValue, attributeName, updateAttribute, updateAttribute2,
             sx={{
               "& > :not(style)": {
                 margin: 1,
-                minWidth: "10ch",
-                maxWidth: "12ch",
+                maxWidth: "25ch",
+                minWidth: "25ch",
               },
             }}
           />

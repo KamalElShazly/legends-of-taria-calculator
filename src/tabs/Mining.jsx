@@ -18,11 +18,10 @@ const Mining = () => {
   const updateTargetLevel = (targetLevel) => {
     setTargetLevel(targetLevel);
   };
-  // Person's current level percentage
-  const [currentPercentage, setCurrentPercentage] = useState(0);
-  const updateCurrentPercentage = (currentPercentage) => {
-    currentPercentage = currentPercentage / 100;
-    setCurrentPercentage(currentPercentage);
+  // Person's current total XP
+  const [currentXP, setCurrentXP] = useState(0);
+  const updateCurrentXP = (currentXP) => {
+    setCurrentXP(currentXP);
   };
   // Person's target element
   const [element, setElement] = useState(["loading"]);
@@ -38,7 +37,7 @@ const Mining = () => {
         maxValue={100}
         attributeName={"Your Mining Level"}
         updateAttribute={updateCurrentLevel}
-        updateAttribute2={updateCurrentPercentage}
+        updateAttribute2={updateCurrentXP}
         isCurrentLevel={true}
       />
       <Attribute
@@ -53,8 +52,7 @@ const Mining = () => {
       <ToggleButtons data={data} skill="Mining" currentLevel={currentLevel} updateElement={updateElement} />
 
       <Display
-        level={currentLevel}
-        levelPercentage={currentPercentage}
+        levelXP={currentXP}
         targetLevel={targetLevel}
         element={element}
         keywords={[""]}

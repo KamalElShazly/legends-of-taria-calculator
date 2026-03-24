@@ -13,11 +13,10 @@ const Smelting = () => {
   const updateCurrentLevel = (currentLevel) => {
     setCurrentLevel(currentLevel);
   };
-  // Person's current level percentage
-  const [currentPercentage, setCurrentPercentage] = useState(0);
-  const updateCurrentPercentage = (currentPercentage) => {
-    currentPercentage = currentPercentage / 100;
-    setCurrentPercentage(currentPercentage);
+  // Person's current total XP
+  const [currentXP, setCurrentXP] = useState(0);
+  const updateCurrentXP = (currentXP) => {
+    setCurrentXP(currentXP);
   };
   // Person's target level
   const [targetLevel, setTargetLevel] = useState(1);
@@ -38,7 +37,7 @@ const Smelting = () => {
         maxValue={100}
         attributeName={"Your Smithing Level"}
         updateAttribute={updateCurrentLevel}
-        updateAttribute2={updateCurrentPercentage}
+        updateAttribute2={updateCurrentXP}
         isCurrentLevel={true}
       />
       <Attribute
@@ -53,8 +52,7 @@ const Smelting = () => {
       <ToggleButtons data={data} skill="Smelting" currentLevel={currentLevel} updateElement={updateElement} />
 
       <Display
-        level={currentLevel}
-        levelPercentage={currentPercentage}
+        levelXP={currentXP}
         targetLevel={targetLevel}
         element={element}
         keywords={[""]}

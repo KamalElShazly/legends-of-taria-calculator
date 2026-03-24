@@ -7,7 +7,7 @@ import ListItemText from "@mui/material/ListItemText";
 
 import expData from "../data/exp_data.json";
 
-const Display = ({ level, levelPercentage, targetLevel, element, keywords, skill, switchValue, smeltBars, smeltingData }) => {
+const Display = ({ levelXP, targetLevel, element, keywords, skill, switchValue, smeltBars, smeltingData }) => {
   const [expGap, setExpGap] = React.useState(0);
 
   const addCommas = (num) => {
@@ -30,11 +30,11 @@ const Display = ({ level, levelPercentage, targetLevel, element, keywords, skill
   };
 
   React.useEffect(() => {
-    const currentLevelExp = parseInt(expData[level]) + (parseInt(expData[level + 1]) - parseInt(expData[level])) * levelPercentage;
+    const currentLevelExp = Number.isFinite(levelXP) ? levelXP : 0;
     const targetLevelExp = expData[targetLevel];
     setExpGap(Math.ceil(targetLevelExp - currentLevelExp));
     // eslint-disable-next-line
-  }, [expData, level, targetLevel, levelPercentage]);
+  }, [expData, levelXP, targetLevel]);
 
   return (
     <>

@@ -14,11 +14,10 @@ const Fishing = () => {
   const updateCurrentLevel = (currentLevel) => {
     setCurrentLevel(currentLevel);
   };
-  // Person's current level percentage
-  const [currentPercentage, setCurrentPercentage] = useState(0);
-  const updateCurrentPercentage = (currentPercentage) => {
-    currentPercentage = currentPercentage / 100;
-    setCurrentPercentage(currentPercentage);
+  // Person's current total XP
+  const [currentXP, setCurrentXP] = useState(0);
+  const updateCurrentXP = (currentXP) => {
+    setCurrentXP(currentXP);
   };
   // Person's target level
   const [targetLevel, setTargetLevel] = useState(1);
@@ -39,7 +38,7 @@ const Fishing = () => {
         maxValue={100}
         attributeName={"Your Fishing Level"}
         updateAttribute={updateCurrentLevel}
-        updateAttribute2={updateCurrentPercentage}
+        updateAttribute2={updateCurrentXP}
         isCurrentLevel={true}
       />
       <Attribute
@@ -69,8 +68,7 @@ const Fishing = () => {
       </Group>
 
       <Display
-        level={currentLevel}
-        levelPercentage={currentPercentage}
+        levelXP={currentXP}
         targetLevel={targetLevel}
         element={element}
         keywords={[""]}
