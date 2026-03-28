@@ -84,6 +84,14 @@ const Smithing = () => {
         <ToggleButtons data={data.Adamant} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
 
+      <Group title="Viridium">
+        <ToggleButtons data={data.Viridium} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Emberite">
+        <ToggleButtons data={data.Emberite} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
       <Display
         levelXP={currentXP}
         targetLevel={targetLevel}

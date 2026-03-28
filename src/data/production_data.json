@@ -2,7 +2,7 @@
   "Smelting": {
     "Bronze Bar": {
       "level": "1",
-      "xp": "6",
+      "xp": "11",
       "submaterials": {
         "Copper Ore": "1",
         "Tin Ore": "1"
@@ -10,35 +10,51 @@
       "image": "smelting/bronze-bar.png"
     },
     "Iron Bar": {
-      "level": "10",
-      "xp": "13",
+      "level": "15",
+      "xp": "22",
       "submaterials": {
         "Iron Ore": "1"
       },
       "image": "smelting/iron-bar.png"
     },
     "Mithril Bar": {
-      "level": "20",
-      "xp": "22",
+      "level": "30",
+      "xp": "40",
       "submaterials": {
         "Mithril Ore": "1"
       },
       "image": "smelting/mithril-bar.png"
     },
     "Adamant Bar": {
-      "level": "30",
-      "xp": "35",
+      "level": "45",
+      "xp": "64",
       "submaterials": {
         "Adamant Ore": "1"
       },
       "image": "smelting/adamant-bar.png"
+    },
+    "Viridium Bar": {
+      "level": "60",
+      "xp": "94",
+      "submaterials": {
+        "Viridium Ore": "1"
+      },
+      "image": "smelting/viridium-bar.png"
+    },
+    "Emberite Bar": {
+      "level": "75",
+      "xp": "130",
+      "submaterials": {
+        "Emberite Ore": "1"
+      },
+      "image": "smelting/emberite-bar.png"
     }
   },
   "Smithing": {
     "Bronze": {
       "Bronze Sword": {
-        "level": "2",
-        "xp": "12",
+        "level": "1",
+        "xp": "15",
         "submaterials": {
           "Bronze Bar": "1"
         },
@@ -46,7 +62,7 @@
       },
       "Bronze Pickaxe": {
         "level": "3",
-        "xp": "24",
+        "xp": "30",
         "submaterials": {
           "Bronze Bar": "2"
         },
@@ -54,31 +70,31 @@
       },
       "Bronze Axe": {
         "level": "3",
-        "xp": "24",
+        "xp": "30",
         "submaterials": {
           "Bronze Bar": "2"
         },
         "image": "smithing/bronze-axe.png"
       },
       "Bronze Helm": {
-        "level": "4",
-        "xp": "36",
+        "level": "5",
+        "xp": "45",
         "submaterials": {
           "Bronze Bar": "3"
         },
         "image": "smithing/bronze-helm.png"
       },
       "Bronze Legs": {
-        "level": "5",
-        "xp": "48",
+        "level": "8",
+        "xp": "60",
         "submaterials": {
           "Bronze Bar": "4"
         },
         "image": "smithing/bronze-legs.png"
       },
       "Bronze Body": {
-        "level": "7",
-        "xp": "60",
+        "level": "12",
+        "xp": "75",
         "submaterials": {
           "Bronze Bar": "5"
         },
@@ -87,48 +103,48 @@
     },
     "Iron": {
       "Iron Sword": {
-        "level": "11",
-        "xp": "25",
+        "level": "16",
+        "xp": "35",
         "submaterials": {
           "Iron Bar": "1"
         },
         "image": "smithing/iron-sword.png"
       },
       "Iron Pickaxe": {
-        "level": "12",
-        "xp": "50",
+        "level": "18",
+        "xp": "70",
         "submaterials": {
           "Iron Bar": "2"
         },
         "image": "smithing/iron-pickaxe.png"
       },
       "Iron Axe": {
-        "level": "12",
-        "xp": "50",
+        "level": "18",
+        "xp": "70",
         "submaterials": {
           "Iron Bar": "2"
         },
         "image": "smithing/iron-axe.png"
       },
       "Iron Helm": {
-        "level": "13",
-        "xp": "75",
+        "level": "20",
+        "xp": "105",
         "submaterials": {
           "Iron Bar": "3"
         },
         "image": "smithing/iron-helm.png"
       },
       "Iron Legs": {
-        "level": "15",
-        "xp": "100",
+        "level": "23",
+        "xp": "140",
         "submaterials": {
           "Iron Bar": "4"
         },
         "image": "smithing/iron-legs.png"
       },
       "Iron Body": {
-        "level": "17",
-        "xp": "125",
+        "level": "27",
+        "xp": "175",
         "submaterials": {
           "Iron Bar": "5"
         },
@@ -137,48 +153,48 @@
     },
     "Mithril": {
       "Mithril Sword": {
-        "level": "21",
-        "xp": "40",
+        "level": "31",
+        "xp": "60",
         "submaterials": {
           "Mithril Bar": "1"
         },
         "image": "smithing/mithril-sword.png"
       },
       "Mithril Pickaxe": {
-        "level": "22",
-        "xp": "80",
+        "level": "33",
+        "xp": "120",
         "submaterials": {
           "Mithril Bar": "2"
         },
         "image": "smithing/mithril-pickaxe.png"
       },
       "Mithril Axe": {
-        "level": "22",
-        "xp": "80",
+        "level": "33",
+        "xp": "120",
         "submaterials": {
           "Mithril Bar": "2"
         },
         "image": "smithing/mithril-axe.png"
       },
       "Mithril Helm": {
-        "level": "23",
-        "xp": "120",
+        "level": "35",
+        "xp": "180",
         "submaterials": {
           "Mithril Bar": "3"
         },
         "image": "smithing/mithril-helm.png"
       },
       "Mithril Legs": {
-        "level": "25",
-        "xp": "160",
+        "level": "38",
+        "xp": "240",
         "submaterials": {
           "Mithril Bar": "4"
         },
         "image": "smithing/mithril-legs.png"
       },
       "Mithril Body": {
-        "level": "27",
-        "xp": "200",
+        "level": "42",
+        "xp": "300",
         "submaterials": {
           "Mithril Bar": "5"
         },
@@ -187,59 +203,159 @@
     },
     "Adamant": {
       "Adamant Sword": {
-        "level": "31",
-        "xp": "62",
+        "level": "46",
+        "xp": "95",
         "submaterials": {
           "Adamant Bar": "1"
         },
         "image": "smithing/adamant-sword.png"
       },
       "Adamant Pickaxe": {
-        "level": "32",
-        "xp": "124",
+        "level": "48",
+        "xp": "190",
         "submaterials": {
           "Adamant Bar": "2"
         },
         "image": "smithing/adamant-pickaxe.png"
       },
       "Adamant Axe": {
-        "level": "32",
-        "xp": "124",
+        "level": "48",
+        "xp": "190",
         "submaterials": {
           "Adamant Bar": "2"
         },
         "image": "smithing/adamant-axe.png"
       },
       "Adamant Helm": {
-        "level": "33",
-        "xp": "186",
+        "level": "50",
+        "xp": "285",
         "submaterials": {
           "Adamant Bar": "3"
         },
         "image": "smithing/adamant-helm.png"
       },
       "Adamant Legs": {
-        "level": "35",
-        "xp": "248",
+        "level": "53",
+        "xp": "380",
         "submaterials": {
           "Adamant Bar": "4"
         },
         "image": "smithing/adamant-legs.png"
       },
       "Adamant Body": {
-        "level": "37",
-        "xp": "310",
+        "level": "57",
+        "xp": "475",
         "submaterials": {
           "Adamant Bar": "5"
         },
         "image": "smithing/adamant-body.png"
+      }
+    },
+    "Viridium": {
+      "Viridium Sword": {
+        "level": "61",
+        "xp": "140",
+        "submaterials": {
+          "Viridium Bar": "1"
+        },
+        "image": "smithing/viridium-sword.png"
+      },
+      "Viridium Pickaxe": {
+        "level": "63",
+        "xp": "280",
+        "submaterials": {
+          "Viridium Bar": "2"
+        },
+        "image": "smithing/viridium-pickaxe.png"
+      },
+      "Viridium Axe": {
+        "level": "63",
+        "xp": "280",
+        "submaterials": {
+          "Viridium Bar": "2"
+        },
+        "image": "smithing/viridium-axe.png"
+      },
+      "Viridium Helm": {
+        "level": "65",
+        "xp": "420",
+        "submaterials": {
+          "Viridium Bar": "3"
+        },
+        "image": "smithing/viridium-helm.png"
+      },
+      "Viridium Legs": {
+        "level": "68",
+        "xp": "560",
+        "submaterials": {
+          "Viridium Bar": "4"
+        },
+        "image": "smithing/viridium-legs.png"
+      },
+      "Viridium Body": {
+        "level": "72",
+        "xp": "700",
+        "submaterials": {
+          "Viridium Bar": "5"
+        },
+        "image": "smithing/viridium-body.png"
+      }
+    },
+    "Emberite": {
+      "Emberite Sword": {
+        "level": "76",
+        "xp": "195",
+        "submaterials": {
+          "Emberite Bar": "1"
+        },
+        "image": "smithing/emberite-sword.png"
+      },
+      "Emberite Pickaxe": {
+        "level": "78",
+        "xp": "390",
+        "submaterials": {
+          "Emberite Bar": "2"
+        },
+        "image": "smithing/emberite-pickaxe.png"
+      },
+      "Emberite Axe": {
+        "level": "78",
+        "xp": "390",
+        "submaterials": {
+          "Emberite Bar": "2"
+        },
+        "image": "smithing/emberite-axe.png"
+      },
+      "Emberite Helm": {
+        "level": "80",
+        "xp": "585",
+        "submaterials": {
+          "Emberite Bar": "3"
+        },
+        "image": "smithing/emberite-helm.png"
+      },
+      "Emberite Legs": {
+        "level": "83",
+        "xp": "780",
+        "submaterials": {
+          "Emberite Bar": "4"
+        },
+        "image": "smithing/emberite-legs.png"
+      },
+      "Emberite Body": {
+        "level": "87",
+        "xp": "975",
+        "submaterials": {
+          "Emberite Bar": "5"
+        },
+        "image": "smithing/emberite-body.png"
       }
     }
   },
   "Cooking": {
     "Shrimp": {
       "level": "1",
-      "xp": "11",
+      "xp": "14",
       "submaterials": {
         "Raw Shrimp": "1"
       },
@@ -247,7 +363,7 @@
     },
     "Anchovies": {
       "level": "8",
-      "xp": "22",
+      "xp": "28",
       "submaterials": {
         "Raw Anchovies": "1"
       },
@@ -255,7 +371,7 @@
     },
     "Sardine": {
       "level": "15",
-      "xp": "34",
+      "xp": "42",
       "submaterials": {
         "Raw Sardine": "1"
       },
@@ -263,7 +379,7 @@
     },
     "Trout": {
       "level": "22",
-      "xp": "45",
+      "xp": "56",
       "submaterials": {
         "Raw Trout": "1"
       },
@@ -271,7 +387,7 @@
     },
     "Bass": {
       "level": "30",
-      "xp": "56",
+      "xp": "70",
       "submaterials": {
         "Raw Bass": "1"
       },
@@ -279,7 +395,7 @@
     },
     "Salmon": {
       "level": "37",
-      "xp": "67",
+      "xp": "84",
       "submaterials": {
         "Raw Salmon": "1"
       },
@@ -287,7 +403,7 @@
     },
     "Crab": {
       "level": "45",
-      "xp": "78",
+      "xp": "98",
       "submaterials": {
         "Raw Crab": "1"
       },
@@ -295,7 +411,7 @@
     },
     "Lobster": {
       "level": "52",
-      "xp": "90",
+      "xp": "112",
       "submaterials": {
         "Raw Lobster": "1"
       },
@@ -303,7 +419,7 @@
     },
     "Octopus": {
       "level": "60",
-      "xp": "101",
+      "xp": "126",
       "submaterials": {
         "Raw Octopus": "1"
       },
@@ -311,7 +427,7 @@
     },
     "Swordfish": {
       "level": "67",
-      "xp": "112",
+      "xp": "140",
       "submaterials": {
         "Raw Swordfish": "1"
       },
@@ -319,7 +435,7 @@
     },
     "Shark": {
       "level": "75",
-      "xp": "123",
+      "xp": "154",
       "submaterials": {
         "Raw Shark": "1"
       },
@@ -327,7 +443,7 @@
     },
     "Manta Ray": {
       "level": "82",
-      "xp": "135",
+      "xp": "168",
       "submaterials": {
         "Raw Manta Ray": "1"
       },
@@ -335,7 +451,7 @@
     },
     "Tuna": {
       "level": "90",
-      "xp": "146",
+      "xp": "182",
       "submaterials": {
         "Raw Tuna": "1"
       },
@@ -345,27 +461,45 @@
   "Firemaking": {
     "Birch": {
       "level": "1",
-      "xp": "10",
+      "xp": "9",
       "submaterials": {},
       "image": "woodcutting/birch-logs.png"
     },
     "Oak": {
-      "level": "10",
-      "xp": "30",
+      "level": "15",
+      "xp": "26",
       "submaterials": {},
       "image": "woodcutting/oak-logs.png"
     },
     "Pine": {
-      "level": "20",
-      "xp": "50",
+      "level": "30",
+      "xp": "44",
       "submaterials": {},
       "image": "woodcutting/pine-logs.png"
     },
     "Cedar": {
-      "level": "30",
-      "xp": "70",
+      "level": "45",
+      "xp": "66",
       "submaterials": {},
       "image": "woodcutting/cedar-logs.png"
+    },
+    "Maple": {
+      "level": "55",
+      "xp": "88",
+      "submaterials": {},
+      "image": "woodcutting/maple-logs.png"
+    },
+    "Linden": {
+      "level": "65",
+      "xp": "114",
+      "submaterials": {},
+      "image": "woodcutting/linden-logs.png"
+    },
+    "Cherry": {
+      "level": "75",
+      "xp": "141",
+      "submaterials": {},
+      "image": "woodcutting/cherry-logs.png"
     }
   }
 }
