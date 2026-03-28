@@ -4,43 +4,43 @@
       "level": "1",
       "xp": "11",
       "submaterials": {},
-      "image": "mining/copper-ore.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/13.png"
     },
     "Tin Ore": {
       "level": "1",
       "xp": "11",
       "submaterials": {},
-      "image": "mining/tin-ore.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/16.png"
     },
     "Iron Ore": {
       "level": "15",
       "xp": "22",
       "submaterials": {},
-      "image": "mining/iron-ore.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/0.png"
     },
     "Mithril Ore": {
       "level": "30",
       "xp": "40",
       "submaterials": {},
-      "image": "mining/mithril-ore.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/32.png"
     },
     "Adamant Ore": {
       "level": "45",
       "xp": "64",
       "submaterials": {},
-      "image": "mining/adamant-ore.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/33.png"
     },
     "Viridium Ore": {
       "level": "60",
       "xp": "94",
       "submaterials": {},
-      "image": "mining/viridium-ore.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/102.png"
     },
     "Emberite Ore": {
       "level": "75",
       "xp": "130",
       "submaterials": {},
-      "image": "mining/emberite-ore.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/94.png"
     }
   },
   "Woodcutting": {
@@ -48,43 +48,43 @@
       "level": "1",
       "xp": "9",
       "submaterials": {},
-      "image": "woodcutting/birch-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/72.png"
     },
     "Oak": {
       "level": "15",
       "xp": "26",
       "submaterials": {},
-      "image": "woodcutting/oak-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/73.png"
     },
     "Pine": {
       "level": "30",
       "xp": "44",
       "submaterials": {},
-      "image": "woodcutting/pine-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/74.png"
     },
     "Cedar": {
       "level": "45",
       "xp": "66",
       "submaterials": {},
-      "image": "woodcutting/cedar-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/75.png"
     },
     "Maple": {
       "level": "55",
       "xp": "88",
       "submaterials": {},
-      "image": "woodcutting/maple-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/110.png"
     },
     "Linden": {
       "level": "65",
       "xp": "114",
       "submaterials": {},
-      "image": "woodcutting/linden-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/76.png"
     },
     "Cherry": {
       "level": "75",
       "xp": "141",
       "submaterials": {},
-      "image": "woodcutting/cherry-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/111.png"
     }
   },
   "Fishing": {
@@ -93,19 +93,19 @@
         "level": "1",
         "xp": "14",
         "submaterials": {},
-        "image": "fishing/raw-shrimp.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/37.png"
       },
       "Anchovies": {
         "level": "8",
         "xp": "28",
         "submaterials": {},
-        "image": "fishing/raw-anchovies.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/41.png"
       },
       "Sardine": {
         "level": "15",
         "xp": "42",
         "submaterials": {},
-        "image": "fishing/raw-sardine.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/39.png"
       }
     },
     "Rod": {
@@ -113,19 +113,19 @@
         "level": "22",
         "xp": "56",
         "submaterials": {},
-        "image": "fishing/raw-trout.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/43.png"
       },
       "Bass": {
         "level": "30",
         "xp": "70",
         "submaterials": {},
-        "image": "fishing/raw-bass.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/47.png"
       },
       "Salmon": {
         "level": "37",
         "xp": "84",
         "submaterials": {},
-        "image": "fishing/raw-salmon.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/45.png"
       }
     },
     "Cage": {
@@ -133,19 +133,19 @@
         "level": "45",
         "xp": "98",
         "submaterials": {},
-        "image": "fishing/raw-crab.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/49.png"
       },
       "Lobster": {
         "level": "52",
         "xp": "112",
         "submaterials": {},
-        "image": "fishing/raw-lobster.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/51.png"
       },
       "Octopus": {
         "level": "60",
         "xp": "126",
         "submaterials": {},
-        "image": "fishing/raw-octopus.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/53.png"
       }
     },
     "Harpoon": {
@@ -153,25 +153,25 @@
         "level": "67",
         "xp": "140",
         "submaterials": {},
-        "image": "fishing/raw-swordfish.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/55.png"
       },
       "Shark": {
         "level": "75",
         "xp": "154",
         "submaterials": {},
-        "image": "fishing/raw-shark.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/57.png"
       },
       "Manta Ray": {
         "level": "82",
         "xp": "168",
         "submaterials": {},
-        "image": "fishing/raw-manta-ray.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/59.png"
       },
       "Tuna": {
         "level": "90",
         "xp": "182",
         "submaterials": {},
-        "image": "fishing/raw-tuna.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/61.png"
       }
     }
   }

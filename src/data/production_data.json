@@ -7,7 +7,7 @@
         "Copper Ore": "1",
         "Tin Ore": "1"
       },
-      "image": "smelting/bronze-bar.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/14.png"
     },
     "Iron Bar": {
       "level": "15",
@@ -15,7 +15,7 @@
       "submaterials": {
         "Iron Ore": "1"
       },
-      "image": "smelting/iron-bar.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/15.png"
     },
     "Mithril Bar": {
       "level": "30",
@@ -23,7 +23,7 @@
       "submaterials": {
         "Mithril Ore": "1"
       },
-      "image": "smelting/mithril-bar.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/22.png"
     },
     "Adamant Bar": {
       "level": "45",
@@ -31,7 +31,7 @@
       "submaterials": {
         "Adamant Ore": "1"
       },
-      "image": "smelting/adamant-bar.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/27.png"
     },
     "Viridium Bar": {
       "level": "60",
@@ -39,7 +39,7 @@
       "submaterials": {
         "Viridium Ore": "1"
       },
-      "image": "smelting/viridium-bar.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/103.png"
     },
     "Emberite Bar": {
       "level": "75",
@@ -47,7 +47,7 @@
       "submaterials": {
         "Emberite Ore": "1"
       },
-      "image": "smelting/emberite-bar.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/95.png"
     }
   },
   "Smithing": {
@@ -58,7 +58,7 @@
         "submaterials": {
           "Bronze Bar": "1"
         },
-        "image": "smithing/bronze-sword.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/2.png"
       },
       "Bronze Pickaxe": {
         "level": "3",
@@ -66,7 +66,7 @@
         "submaterials": {
           "Bronze Bar": "2"
         },
-        "image": "smithing/bronze-pickaxe.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/12.png"
       },
       "Bronze Axe": {
         "level": "3",
@@ -74,7 +74,7 @@
         "submaterials": {
           "Bronze Bar": "2"
         },
-        "image": "smithing/bronze-axe.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/78.png"
       },
       "Bronze Helm": {
         "level": "5",
@@ -82,7 +82,7 @@
         "submaterials": {
           "Bronze Bar": "3"
         },
-        "image": "smithing/bronze-helm.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/17.png"
       },
       "Bronze Legs": {
         "level": "8",
@@ -90,7 +90,7 @@
         "submaterials": {
           "Bronze Bar": "4"
         },
-        "image": "smithing/bronze-legs.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/19.png"
       },
       "Bronze Body": {
         "level": "12",
@@ -98,7 +98,7 @@
         "submaterials": {
           "Bronze Bar": "5"
         },
-        "image": "smithing/bronze-body.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/18.png"
       }
     },
     "Iron": {
@@ -108,7 +108,7 @@
         "submaterials": {
           "Iron Bar": "1"
         },
-        "image": "smithing/iron-sword.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/3.png"
       },
       "Iron Pickaxe": {
         "level": "18",
@@ -116,7 +116,7 @@
         "submaterials": {
           "Iron Bar": "2"
         },
-        "image": "smithing/iron-pickaxe.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/21.png"
       },
       "Iron Axe": {
         "level": "18",
@@ -124,7 +124,7 @@
         "submaterials": {
           "Iron Bar": "2"
         },
-        "image": "smithing/iron-axe.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/79.png"
       },
       "Iron Helm": {
         "level": "20",
@@ -132,7 +132,7 @@
         "submaterials": {
           "Iron Bar": "3"
         },
-        "image": "smithing/iron-helm.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/9.png"
       },
       "Iron Legs": {
         "level": "23",
@@ -140,7 +140,7 @@
         "submaterials": {
           "Iron Bar": "4"
         },
-        "image": "smithing/iron-legs.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/11.png"
       },
       "Iron Body": {
         "level": "27",
@@ -148,7 +148,7 @@
         "submaterials": {
           "Iron Bar": "5"
         },
-        "image": "smithing/iron-body.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/10.png"
       }
     },
     "Mithril": {
@@ -158,7 +158,7 @@
         "submaterials": {
           "Mithril Bar": "1"
         },
-        "image": "smithing/mithril-sword.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/4.png"
       },
       "Mithril Pickaxe": {
         "level": "33",
@@ -166,7 +166,7 @@
         "submaterials": {
           "Mithril Bar": "2"
         },
-        "image": "smithing/mithril-pickaxe.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/26.png"
       },
       "Mithril Axe": {
         "level": "33",
@@ -174,7 +174,7 @@
         "submaterials": {
           "Mithril Bar": "2"
         },
-        "image": "smithing/mithril-axe.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/80.png"
       },
       "Mithril Helm": {
         "level": "35",
@@ -182,7 +182,7 @@
         "submaterials": {
           "Mithril Bar": "3"
         },
-        "image": "smithing/mithril-helm.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/23.png"
       },
       "Mithril Legs": {
         "level": "38",
@@ -190,7 +190,7 @@
         "submaterials": {
           "Mithril Bar": "4"
         },
-        "image": "smithing/mithril-legs.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/25.png"
       },
       "Mithril Body": {
         "level": "42",
@@ -198,7 +198,7 @@
         "submaterials": {
           "Mithril Bar": "5"
         },
-        "image": "smithing/mithril-body.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/24.png"
       }
     },
     "Adamant": {
@@ -208,7 +208,7 @@
         "submaterials": {
           "Adamant Bar": "1"
         },
-        "image": "smithing/adamant-sword.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/5.png"
       },
       "Adamant Pickaxe": {
         "level": "48",
@@ -216,7 +216,7 @@
         "submaterials": {
           "Adamant Bar": "2"
         },
-        "image": "smithing/adamant-pickaxe.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/31.png"
       },
       "Adamant Axe": {
         "level": "48",
@@ -224,7 +224,7 @@
         "submaterials": {
           "Adamant Bar": "2"
         },
-        "image": "smithing/adamant-axe.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/81.png"
       },
       "Adamant Helm": {
         "level": "50",
@@ -232,7 +232,7 @@
         "submaterials": {
           "Adamant Bar": "3"
         },
-        "image": "smithing/adamant-helm.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/28.png"
       },
       "Adamant Legs": {
         "level": "53",
@@ -240,7 +240,7 @@
         "submaterials": {
           "Adamant Bar": "4"
         },
-        "image": "smithing/adamant-legs.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/30.png"
       },
       "Adamant Body": {
         "level": "57",
@@ -248,7 +248,7 @@
         "submaterials": {
           "Adamant Bar": "5"
         },
-        "image": "smithing/adamant-body.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/29.png"
       }
     },
     "Viridium": {
@@ -258,7 +258,7 @@
         "submaterials": {
           "Viridium Bar": "1"
         },
-        "image": "smithing/viridium-sword.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/107.png"
       },
       "Viridium Pickaxe": {
         "level": "63",
@@ -266,7 +266,7 @@
         "submaterials": {
           "Viridium Bar": "2"
         },
-        "image": "smithing/viridium-pickaxe.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/108.png"
       },
       "Viridium Axe": {
         "level": "63",
@@ -274,7 +274,7 @@
         "submaterials": {
           "Viridium Bar": "2"
         },
-        "image": "smithing/viridium-axe.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/109.png"
       },
       "Viridium Helm": {
         "level": "65",
@@ -282,7 +282,7 @@
         "submaterials": {
           "Viridium Bar": "3"
         },
-        "image": "smithing/viridium-helm.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/104.png"
       },
       "Viridium Legs": {
         "level": "68",
@@ -290,7 +290,7 @@
         "submaterials": {
           "Viridium Bar": "4"
         },
-        "image": "smithing/viridium-legs.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/106.png"
       },
       "Viridium Body": {
         "level": "72",
@@ -298,7 +298,7 @@
         "submaterials": {
           "Viridium Bar": "5"
         },
-        "image": "smithing/viridium-body.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/105.png"
       }
     },
     "Emberite": {
@@ -308,7 +308,7 @@
         "submaterials": {
           "Emberite Bar": "1"
         },
-        "image": "smithing/emberite-sword.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/99.png"
       },
       "Emberite Pickaxe": {
         "level": "78",
@@ -316,7 +316,7 @@
         "submaterials": {
           "Emberite Bar": "2"
         },
-        "image": "smithing/emberite-pickaxe.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/100.png"
       },
       "Emberite Axe": {
         "level": "78",
@@ -324,7 +324,7 @@
         "submaterials": {
           "Emberite Bar": "2"
         },
-        "image": "smithing/emberite-axe.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/101.png"
       },
       "Emberite Helm": {
         "level": "80",
@@ -332,7 +332,7 @@
         "submaterials": {
           "Emberite Bar": "3"
         },
-        "image": "smithing/emberite-helm.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/96.png"
       },
       "Emberite Legs": {
         "level": "83",
@@ -340,7 +340,7 @@
         "submaterials": {
           "Emberite Bar": "4"
         },
-        "image": "smithing/emberite-legs.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/98.png"
       },
       "Emberite Body": {
         "level": "87",
@@ -348,7 +348,7 @@
         "submaterials": {
           "Emberite Bar": "5"
         },
-        "image": "smithing/emberite-body.png"
+        "image": "https://wiki.legendsoftaria.com/assets/images/items/97.png"
       }
     }
   },
@@ -359,7 +359,7 @@
       "submaterials": {
         "Raw Shrimp": "1"
       },
-      "image": "cooking/shrimp.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/38.png"
     },
     "Anchovies": {
       "level": "8",
@@ -367,7 +367,7 @@
       "submaterials": {
         "Raw Anchovies": "1"
       },
-      "image": "cooking/anchovies.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/42.png"
     },
     "Sardine": {
       "level": "15",
@@ -375,7 +375,7 @@
       "submaterials": {
         "Raw Sardine": "1"
       },
-      "image": "cooking/sardine.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/40.png"
     },
     "Trout": {
       "level": "22",
@@ -383,7 +383,7 @@
       "submaterials": {
         "Raw Trout": "1"
       },
-      "image": "cooking/trout.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/44.png"
     },
     "Bass": {
       "level": "30",
@@ -391,7 +391,7 @@
       "submaterials": {
         "Raw Bass": "1"
       },
-      "image": "cooking/bass.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/48.png"
     },
     "Salmon": {
       "level": "37",
@@ -399,7 +399,7 @@
       "submaterials": {
         "Raw Salmon": "1"
       },
-      "image": "cooking/salmon.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/46.png"
     },
     "Crab": {
       "level": "45",
@@ -407,7 +407,7 @@
       "submaterials": {
         "Raw Crab": "1"
       },
-      "image": "cooking/crab.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/50.png"
     },
     "Lobster": {
       "level": "52",
@@ -415,7 +415,7 @@
       "submaterials": {
         "Raw Lobster": "1"
       },
-      "image": "cooking/lobster.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/52.png"
     },
     "Octopus": {
       "level": "60",
@@ -423,7 +423,7 @@
       "submaterials": {
         "Raw Octopus": "1"
       },
-      "image": "cooking/octopus.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/54.png"
     },
     "Swordfish": {
       "level": "67",
@@ -431,7 +431,7 @@
       "submaterials": {
         "Raw Swordfish": "1"
       },
-      "image": "cooking/swordfish.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/56.png"
     },
     "Shark": {
       "level": "75",
@@ -439,7 +439,7 @@
       "submaterials": {
         "Raw Shark": "1"
       },
-      "image": "cooking/shark.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/58.png"
     },
     "Manta Ray": {
       "level": "82",
@@ -447,7 +447,7 @@
       "submaterials": {
         "Raw Manta Ray": "1"
       },
-      "image": "cooking/manta-ray.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/60.png"
     },
     "Tuna": {
       "level": "90",
@@ -455,7 +455,7 @@
       "submaterials": {
         "Raw Tuna": "1"
       },
-      "image": "cooking/tuna.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/62.png"
     }
   },
   "Firemaking": {
@@ -463,43 +463,43 @@
       "level": "1",
       "xp": "9",
       "submaterials": {},
-      "image": "woodcutting/birch-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/72.png"
     },
     "Oak": {
       "level": "15",
       "xp": "26",
       "submaterials": {},
-      "image": "woodcutting/oak-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/73.png"
     },
     "Pine": {
       "level": "30",
       "xp": "44",
       "submaterials": {},
-      "image": "woodcutting/pine-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/74.png"
     },
     "Cedar": {
       "level": "45",
       "xp": "66",
       "submaterials": {},
-      "image": "woodcutting/cedar-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/75.png"
     },
     "Maple": {
       "level": "55",
       "xp": "88",
       "submaterials": {},
-      "image": "woodcutting/maple-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/110.png"
     },
     "Linden": {
       "level": "65",
       "xp": "114",
       "submaterials": {},
-      "image": "woodcutting/linden-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/76.png"
     },
     "Cherry": {
       "level": "75",
       "xp": "141",
       "submaterials": {},
-      "image": "woodcutting/cherry-logs.png"
+      "image": "https://wiki.legendsoftaria.com/assets/images/items/111.png"
     }
   }
 }

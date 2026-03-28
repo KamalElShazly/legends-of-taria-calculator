@@ -82,7 +82,7 @@ const ToggleButtons = ({ data, currentLevel, updateElement }) => {
                 }}
               >
                 <img
-                  src={process.env.PUBLIC_URL + `/images/${data[element]["image"]}`}
+                  src={data[element]["image"] ?? ""}
                   width="22"
                   height="22"
                   value={element}
