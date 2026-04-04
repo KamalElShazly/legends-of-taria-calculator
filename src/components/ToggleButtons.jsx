@@ -25,7 +25,7 @@ const StyledToggleButtonGroup = styled(ToggleButtonGroup)(({ theme }) => ({
   },
 }));
 
-const ToggleButtons = ({ data, currentLevel, updateElement }) => {
+const ToggleButtons = ({ data, currentLevel, updateElement, restrictByLevel = true }) => {
   const [selectedElement, setSelectedElement] = React.useState();
 
   const handleChange = (event, newElement) => {
@@ -66,7 +66,7 @@ const ToggleButtons = ({ data, currentLevel, updateElement }) => {
             <ToggleButton
               key={element}
               value={element}
-              disabled={currentLevel < parseInt(data[element]["level"])}
+              disabled={restrictByLevel && currentLevel < parseInt(data[element]["level"], 10)}
               onClick={handleChange}
               sx={{
                 "& > :not(style)": {

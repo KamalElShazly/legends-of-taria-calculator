@@ -16,6 +16,10 @@ const Display = ({ levelXP, targetLevel, element, keywords, skill, switchValue, 
 
   const getEffectiveXpPerItem = () => {
     if (!element[1] || element[0] === "loading") return 0;
+    if (skill === "Combat") {
+      const hp = parseInt(element[1]["hp"], 10);
+      return Number.isFinite(hp) ? hp * 10 : 0;
+    }
     const itemXp = parseInt(element[1]["xp"], 10);
     if (smeltBars && smeltingData && element[1]["submaterials"]) {
       let smeltingXp = 0;
@@ -68,7 +72,7 @@ const Display = ({ levelXP, targetLevel, element, keywords, skill, switchValue, 
             {element[0] === "loading" ? (
               <></>
             ) : (
-              Object.keys(element[1]["submaterials"]).map((subelement) => (
+              Object.keys(element[1]["submaterials"] ?? {}).map((subelement) => (
                 <ListItem key={subelement}>
                   <ListItemText
                     primary={

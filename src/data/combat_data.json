@@ -1,0 +1,138 @@
+{
+  "Healer Skeleton (Lv 1)": {
+    "level": "1",
+    "hp": "1",
+    "melee": "0",
+    "magic": "0",
+    "defence": "1",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/51.png"
+  },
+  "Cow (Lv 1)": {
+    "level": "1",
+    "hp": "8",
+    "melee": "1",
+    "magic": "0",
+    "defence": "1",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/3.png"
+  },
+  "Skeleton (Lv 5)": {
+    "level": "5",
+    "hp": "16",
+    "melee": "3",
+    "magic": "0",
+    "defence": "3",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/35.png"
+  },
+  "Goblin (Lv 10)": {
+    "level": "10",
+    "hp": "15",
+    "melee": "8",
+    "magic": "0",
+    "defence": "7",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/14.png"
+  },
+  "Goblin (Lv 12)": {
+    "level": "12",
+    "hp": "19",
+    "melee": "10",
+    "magic": "0",
+    "defence": "9",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/15.png"
+  },
+  "Goblin (Lv 15)": {
+    "level": "15",
+    "hp": "25",
+    "melee": "13",
+    "magic": "0",
+    "defence": "11",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/16.png"
+  },
+  "Armored Skeleton (Lv 15)": {
+    "level": "15",
+    "hp": "30",
+    "melee": "12",
+    "magic": "0",
+    "defence": "9",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/36.png"
+  },
+  "Giant Rat (Lv 18)": {
+    "level": "18",
+    "hp": "30",
+    "melee": "16",
+    "magic": "0",
+    "defence": "14",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/32.png"
+  },
+  "Giant Rat (Lv 20)": {
+    "level": "20",
+    "hp": "36",
+    "melee": "19",
+    "magic": "0",
+    "defence": "16",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/33.png"
+  },
+  "Giant Rat (Lv 23)": {
+    "level": "23",
+    "hp": "44",
+    "melee": "22",
+    "magic": "0",
+    "defence": "20",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/34.png"
+  },
+  "Elite Skeleton (Lv 23)": {
+    "level": "23",
+    "hp": "42",
+    "melee": "19",
+    "magic": "0",
+    "defence": "15",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/37.png"
+  },
+  "Ent (Lv 28)": {
+    "level": "28",
+    "hp": "55",
+    "melee": "28",
+    "magic": "0",
+    "defence": "25",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/5.png"
+  },
+  "Ent (Lv 31)": {
+    "level": "31",
+    "hp": "65",
+    "melee": "32",
+    "magic": "0",
+    "defence": "29",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/6.png"
+  },
+  "Ent (Lv 35)": {
+    "level": "35",
+    "hp": "78",
+    "melee": "37",
+    "magic": "0",
+    "defence": "34",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/7.png"
+  },
+  "Lich #23 (Lv 40)": {
+    "level": "40",
+    "hp": "60",
+    "melee": "0",
+    "magic": "45",
+    "defence": "40",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/23.png"
+  },
+  "Lich #24 (Lv 40)": {
+    "level": "40",
+    "hp": "60",
+    "melee": "0",
+    "magic": "45",
+    "defence": "40",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/24.png"
+  },
+  "Lich #25 (Lv 40)": {
+    "level": "40",
+    "hp": "60",
+    "melee": "0",
+    "magic": "45",
+    "defence": "40",
+    "image": "https://wiki.legendsoftaria.com/assets/images/npcs/25.png"
+  }
+}
